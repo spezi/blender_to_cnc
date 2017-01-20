@@ -1,1 +1,9 @@
-import("example.stl", convexity=3);
+module proj() {     
+    scale([100,100,1])
+    import("./xxx.stl");
+}
+
+
+
+projection(cut = false)
+    proj();
